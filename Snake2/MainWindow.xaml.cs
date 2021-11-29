@@ -39,7 +39,7 @@ namespace Snake2
             int tamanyYCasella = (int)canvas.ActualHeight / SnakeGame.Y_SIZE;
             Ellipse ellSerp = new Ellipse()
             {
-                Fill = Brushes.Green,
+                Fill = Brushes.Pink,
                 Width = canvas.ActualWidth / SnakeGame.X_SIZE,
                 Height = canvas.ActualHeight / SnakeGame.Y_SIZE
             };
